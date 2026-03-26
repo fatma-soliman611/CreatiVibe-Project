@@ -45,7 +45,7 @@
     height: auto;
     color: #fff;
     margin: 80px auto 80px 50px;
-    padding:120px 25px 25px 25px;
+    padding: 25px ;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.32));
 
 background-size: auto;   /*!!!!!!!(Responsive of the background of the text)*/
