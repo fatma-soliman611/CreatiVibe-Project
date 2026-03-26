@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first_page{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.85)),url(../image.img/people.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    padding: 15px;
+     display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #fff;
+      position:fixed;
+      width: 100%;
+      top: 0;
+      z-index:9999;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, .5));
+}
+.navbar-brand, .footer h3{
+    color: rgba(249, 115, 22, 1) !important;
+    font-family: Dela Gothic One;
+    font-weight: bold;
+     margin: 0 30px;
+}
+.btn{
+    background-color:rgba(249, 115, 22, 1) !important;
+    color:black;
+    width: 172px;
+    height: 47px;
+    margin: 0 30px;
+}
+.navbar-nav{
+     margin-left: 100px;
+     gap:15px;
+}
+.first_page_content{
+        width: 760px;
+    height: auto;
+    color: #fff;
+    margin: 80px auto 80px 50px;
+    padding: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.32));
+
+background-size: auto;   /*!!!!!!!(Responsive of the background of the text)*/
+}
+@media screen and (min-width:1100px){
+    .first_page_content{
+    height: auto;
+    color: #fff;
+    margin: 80px auto 80px 50px;
+}
+}
+@media screen and (max-width:1100px){
+.first_page_content{
+   width: auto;
+    height: auto;
+    color: #fff;
+    margin: 80px auto 80px 50px;
+}
+}
+@media screen and (max-width:800px){
+    .first_page_content{
+   width: auto;
+    height: auto;
+    color: #fff;
+    margin: 80px auto 80px 50px;
+}
+}
+.first_page_content h3 ,.about_us_text h2 ,.client-review h3{
+    color:rgba(249, 115, 22, 1);
+    font-family: Dela Gothic One;
+}
+.first-page-footer{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    margin:-5px 60px 60px 60px;
+}
+.footer-card{
+    padding: 16px 24px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1));
+    border-radius: .5px;
+    border-color: rgba(0, 0, 0, 0.15);
+    width: auto;
+    height: 163px;
+    color:#fff;
+    justify-content: center;
+    align-items:center;
+    text-align: center; 
+    gap:8px;
+}
+@media screen and (min-width:1200px) {
+    .first-page-footer{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    margin:-5px 60px 60px 60px;
+}
+}
+@media screen and (max-width:1200px) {
+    .first-page-footer{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+    margin:-5px 60px 60px 60px;
+}
+}
+@media screen and (max-width:800px) {
+    .first-page-footer{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:50px;
+    margin:-5px 60px 60px 60px;
+}
+}
+.second{
+    color:rgba(249, 115, 22, 1);
+    font-weight: bold;
+    padding: 25px 10px 40px 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.third{
+    height:auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(243, 244, 246, 1);
+}
+.third-text{
+    padding:30px 0 20px 0;
+}
+.third-text h2{
+    color:rgba(249, 115, 22, 1);
+    font-weight: bold;
+}
+.third-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
+    gap:50px 100px;
+
+}
+@media screen and (min-width:1000px){
+    .third-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
+}
+}
+@media screen and (max-width:1000px){
+    .third-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 50px;
+}
+}
+@media screen and (max-width:730px){
+    .third-cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 50px;
+}
+}
+.third-page-card{
+   background-color:rgba(255, 255, 255, 1);
+   width:auto;
+   height:auto;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap:30px;
+   padding: 20px;
+   
+}
+.third-page-card ul{
+    list-style: none;
+   padding: 0;
+   gap: 6px;
+}
+.third-page-card ul li{
+    display: flex;
+   align-items: center;
+   gap: 15px;
+   color:rgba(113, 112, 112, 1);
+   font-size: 12px;
+}
+.four{
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+   background-color: rgba(243, 244, 246, 1);
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.gallery-img{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+@media screen and (min-width:1000px){
+    .gallery-img{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+     width: auto;
+    height: auto;
+}
+
+}
+@media screen and (max-width:1000px){
+    .gallery-img{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+     width: auto;
+    height: auto;
+}
+}
+@media screen and (max-width:730px){
+    .gallery-img{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:30px;
+     width: auto;
+    height: auto;                      /*(Responsive)!!!!!!!!!!!!!!!!*/
+}
+}
+.about_us{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width: auto;
+    height: auto;
+padding:80px 20px;
+}
+@media screen and (min-width: 970px) {
+    .about_us{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+     .about_us_img img{
+    width: 535px;
+    height: 513px;
+    }
+}
+@media screen and (max-width: 970px) {
+    .about_us{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .about_us_img img{
+    width: 400px;
+    height: 413px;                            /*image size with mobile responsive*/
+    }
+}
+.about_us_img img{
+    box-shadow: 10px 10px 0px rgba(249, 115, 22, 50);
+    border-radius: 5px;
+}
+.about_us_text{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.client-review{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.review-cards{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    padding: 20px 5px;
+    overflow: hidden;
+}
+.review-cards .card{
+    width:fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+@media screen and (min-width:800px){
+    .review-cards{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    padding: 15px 5px;
+}
+}
+@media screen and (max-width: 800px){
+    .review-cards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+    padding: 15px 5px;
+}
+}
+@media screen and (max-width: 500px){
+    .review-cards{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:15px;
+    padding: 15px 5px;
+}
+}
+.card ul , .footer ul{
+    list-style: none;
+    display: flex;
+}
+.card ul li , .footer ul li{
+    color:rgba(250, 204, 21, 1);
+}
+.footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding: 50px;
+    background-color:rgba(243, 244, 246, 1);
+    gap:50px;
+}
+.footer ul{
+    justify-content: center;
+}
+.footer h3{
+    justify-content: center;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px){
+    .footer{
+        justify-content: center;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+         justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 800px){
+    .footer{
+        display:grid;
+    grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:50px;
+    }
+}
