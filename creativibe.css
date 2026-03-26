@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .first_page{
     width: 100%;
     height: auto;
@@ -23,7 +28,7 @@
       z-index:9999;
      background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, .5));
     background: transparent !important;
-    box-shadow:none;
+    box-shadow: none !important;
 }
 .navbar-brand, .footer h3{
     color: rgba(249, 115, 22, 1) !important;
@@ -49,7 +54,7 @@
     margin: 80px auto 80px 50px;
     padding: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.32));
-
+    padding-top:120px;
 background-size: auto;   /*!!!!!!!(Responsive of the background of the text)*/
 }
 @media screen and (min-width:1100px){
