@@ -17,20 +17,19 @@ img {
     background-size: cover;
 }
 .navbar{
-    padding: 15px;
      display: flex;
       align-items: center;
       justify-content: space-between;
       color: #fff;
-      position:fixed;
-    padding:15px 20px;
+      position:fixed !important;
+    padding:15px 20px !important;
       width: 100%;
       top: 0;
       left:0;
       z-index:9999;
-     background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, .5)) !important;
+     background: transparent !important;
     backdrop-filter: blur(10px);
-    background-image:none;
+    background-image: none !important;
     box-shadow: none !important;
 }
 .navbar-brand, .footer h3{
@@ -54,9 +53,8 @@ img {
         width: 760px;
     height: auto;
     color: #fff;
-    margin: 0px auto 80px 50px;
     padding: 25px;
-    padding-top:0px;
+    margin-left: 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.32));
     padding-top:120px;
 background-size: auto;   /*!!!!!!!(Responsive of the background of the text)*/
