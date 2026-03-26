@@ -23,11 +23,14 @@ img {
       justify-content: space-between;
       color: #fff;
       position:fixed;
+    padding:15px 20px;
       width: 100%;
       top: 0;
+      left:0;
       z-index:9999;
      background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, .5)) !important;
     backdrop-filter: blur(10px);
+    background-image:none;
     box-shadow: none !important;
 }
 .navbar-brand, .footer h3{
