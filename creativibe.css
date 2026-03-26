@@ -51,8 +51,9 @@ img {
         width: 760px;
     height: auto;
     color: #fff;
-    margin: 80px auto 80px 50px;
+    margin: 0px auto 80px 50px;
     padding: 25px;
+    padding-top:0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.32));
     padding-top:120px;
 background-size: auto;   /*!!!!!!!(Responsive of the background of the text)*/
