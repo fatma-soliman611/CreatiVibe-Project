@@ -4,15 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
+
 .first_page{
     width: 100%;
-    height: auto;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.85)),url(../image.img/people.jpg);
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.85)),url(people.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -58,7 +54,7 @@ img{
     padding: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.32));
 
-background-size: auto;   /*!!!!!!!(Responsive of the background of the text)*/
+background-size: auto;   
 }
 @media screen and (min-width:1100px){
     .first_page_content{
